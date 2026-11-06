@@ -62,8 +62,9 @@ Your existing project sites (`/webmcp-memory-bus/`, `/darkroom/`) keep working a
 Custom domain later? Add it under Settings → Pages, set a repo variable `SITE_URL` to it, and add a `public/CNAME` file.
 Any other static host (Vercel, Netlify, Cloudflare Pages) also works — just publish `out/`.
 
-**Before going public:** `public/AbhishekJha_Resume.pdf` is a copy of your master résumé and contains your phone
-number. Everything on the site is public once pushed.
+**Status: live** at https://abhishekjha18.github.io/ (repo `Abhishekjha18/Abhishekjha18.github.io`, public).
+`public/AbhishekJha_Resume.pdf` is a copy of `resumes/onepager/AbhishekJha_Resume.pdf` and contains the phone number
+(approved to be public). To update the résumé: replace that file and push — the site redeploys itself.
 
 | Env var | Purpose | Default |
 | --- | --- | --- |
